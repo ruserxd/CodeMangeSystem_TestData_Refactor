@@ -3,7 +3,7 @@ package org;
 // Car 類別
 public class Car {
   // Car 的名稱
-  String name;
+  String carName;
 
   // Car 的建構子
   public Car(String name) {
@@ -12,11 +12,11 @@ public class Car {
 
   // 獲取 Car 的名稱
   public String getName() {
-    return this.name;
+    return this.carName;
   }
 
   // 設定 Car 的名稱
   public void setName(String name) {
-    this.name = name;
+    this.carName = name;
   }
 }

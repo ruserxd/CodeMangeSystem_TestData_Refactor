@@ -6,14 +6,14 @@ import java.util.List;
 // Car's Shop 類別
 public class CarShop {
   // Car's Shop 的名稱
-  String name;
+  String carShopName;
 
   // Car's Shop 擁有的車子
   List<Car> carList;
 
   // Car's Shop 的建構子
   public CarShop(String name) {
-    this.name = name;
+    this.carShopName = name;
     this.carList = new ArrayList<>();
   }
 
