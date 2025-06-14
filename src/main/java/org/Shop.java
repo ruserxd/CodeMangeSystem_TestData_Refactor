@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Car's Shop 類別
-public class CarShop {
+public class Shop {
   // Car's Shop 的名稱
   String carShopName;
 
@@ -12,7 +12,7 @@ public class CarShop {
   List<Car> carList;
 
   // Car's Shop 的建構子
-  public CarShop(String name) {
+  public Shop(String name) {
     this.carShopName = name;
     this.carList = new ArrayList<>();
   }
